@@ -1,0 +1,121 @@
+/*GÉNÉRAL*/
+
+*
+{
+  box-sizing: border-box;
+}
+
+
+button
+{
+   background:  #f8c61a; 
+   border: 2px solid #f8c61a;
+   color :white;
+   border-radius: 50px;
+   width: 150px;
+   height: 40px;
+   font-weight: bold;
+   font-size: 1em;
+   margin-left: -40%;
+   margin-top: -5%;
+}
+/*CONTAINER*/
+#container
+{
+  border: 2px solid chartreuse;
+}
+
+/*SECTION 1 PRÉSENTATION*/
+
+.section1-presentation
+{
+  border: 2px solid red;
+}
+
+.presentation__container-text-img
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+#img-presentation
+{
+  width: 80%;
+}
+
+.presentation__texte
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.presentation__texte h1
+{
+  font-size: 2.3em;
+}
+
+.presentation__texte p
+{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+.presentation__bouttons
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/*SECTION 2 PRODUIT*/
+.section2-produit
+{
+  border: 2px solid blue;
+  background: #fafafa;
+  display: flex;
+  justify-content: space-around;
+}
+
+.produit
+{
+  padding: 5%;
+}
+
+.produit-logo
+{
+  width: 80%;
+}
+
+.produit h3
+{
+  text-align: center;
+}
+
+
+
+/*SECTION 3 VISITE*/
+.section3-visite
+{
+  border: 2px solid  green;
+}
+
+/*SECTION 4 DEVENIR AGENT*/
+.section4-devenir-agent
+{
+  border: 2px solid orange;
+}
+
+/*SECTION 5 RECOMANDATION*/
+.section5-recomandation
+{
+  border: 2px solid pink;
+}
+
+/*SECTION 6 ALLER PLUS LOIN*/
+.section6-aller-plus-loin
+{
+  border : border  2px solid black;
+}
