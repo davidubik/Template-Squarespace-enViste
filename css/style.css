@@ -8,11 +8,11 @@
 /*FONT*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 button
 {
-   background:  #f8c61a; 
+   background:  #f8c61a;
    border: 2px solid #f8c61a;
    color :white;
    border-radius: 50px;
@@ -23,6 +23,18 @@ button
    margin-left: -40%;
    margin-top: -5%;
 }
+
+small
+{
+  font-size: .8em;
+  font-style: normal;
+}
+
+strong
+{
+  color : #515151;
+}
+
 /*CONTAINER*/
 #container
 {
@@ -139,8 +151,8 @@ figcaption
 
 .experience-innovente__text p
 {
-  font-size: 1.3em;
-   margin-top: 8%; 
+  /* font-size: 1.3em; */
+   margin-top: 8%;
   letter-spacing: .1rem;
 }
 
@@ -148,7 +160,32 @@ figcaption
 .section5-devenir-agent
 {
   border: 2px solid orange;
+  display: flex;
+  justify-content: space-around;
 }
+
+.devenir-agent__text
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.devenir-agent__text h3
+{
+  text-align: center;
+}
+
+.devenir-agent__text p
+{
+  margin-top: 8%;
+  letter-spacing: .1rem;
+}
+
+#devenir-agent__img
+{
+  width: 80%;
+}
+
 
 /*SECTION 6 RECOMANDATION*/
 .section6-recomandation
@@ -156,8 +193,35 @@ figcaption
   border: 2px solid pink;
 }
 
+.recomandation__titre
+{
+  display: flex;
+  background: #43a3da;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 20vh;
+}
+
+.recomandation__titre > h2
+{
+ font-size: 2.5em;
+ letter-spacing: .1rem;
+}
+
+.recomandation__p
+{
+  text-align: center;
+  font-style: italic;
+  color: #515151;
+  font-family: 'Open Sans', sans-serif;
+  height: 15vh;
+  margin-top: 3%;
+  font-size: 18px;
+}
+
 /*SECTION 7 ALLER PLUS LOIN*/
 .section7-aller-plus-loin
 {
-  border : border  2px solid black;
+  border : 2px solid black;
 }
